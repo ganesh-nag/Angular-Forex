@@ -1,2 +1,2 @@
 # Angular-Forex
- Angular - CORS - Feign - Ribbon - Eureka
+ Amalgamate Angular - CORS - Feign - Ribbon - Eureka - Spring Cloud Netflix

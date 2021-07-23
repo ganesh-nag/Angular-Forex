@@ -1,0 +1,20 @@
+<div class="col-md-6">
+    <h2> Enter Conversion Currency</h2>
+        <form>
+                <div class="form-group">
+                        <label for="from">From:</label>
+                        <input [(ngModel)]="conversion.from" placeholder="From" name="from" class="form-control" id="firstName">
+                    </div>
+                <div class="form-group">
+                            <label for="to">To:</label>
+                            <input [(ngModel)]="conversion.to" placeholder="To" name="to" class="form-control" id="firstName">
+                    </div>
+                <div class="form-group">
+                                <label for="quantity">Quantity:</label>
+                                <input [(ngModel)]="conversion.quantity" placeholder="Quantity" name="quantity" class="form-control" id="firstName">
+                    </div>
+                    <button class="btn btn-success" (click)="convert()">Convert</button>
+                    <pre>Data Obtained is: {{ myvar | json }}</pre>
+        </form>
+</div>
+                            
